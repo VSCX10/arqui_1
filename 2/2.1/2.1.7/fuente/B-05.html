@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>B-05 Configurar categorías y atributos</title><link rel="stylesheet" href="estilos.css"></head>
+<body class="bo"><div class="codebar">B-05</div>
+<header class="top"><span class="logo">QHATU <small>· Back-office</small></span>
+<nav class="menu"><a href="#">Moderación</a><a href="#" class="on">Categorías y atributos</a></nav>
+<span class="who">Administrador de catálogo</span><span class="burger">☰</span></header>
+<main class="page">
+
+<h1>Back-office &gt; Catálogo &gt; Categorías y atributos</h1>
+<div class="grid bo5">
+ <aside class="box"><h2>Árbol de categorías</h2>
+  <div>&gt; Moda</div><div style="padding-left:18px"><b>- Polos &nbsp;&lt;</b><br>- Casacas</div>
+  <div>&gt; Hogar</div><div>&gt; Alimentos</div>
+  <div class="row"><button class="btn s">+ Nueva categoría</button></div></aside>
+ <section class="box"><h2>Categoría: Moda &gt; Polos</h2>
+  <div class="fl"><label>Nombre</label><input type="text" class="w3" value="Polos" placeholder=""></div><div class="fl"><label>Categoría padre</label><select style="min-width:120px"><option>Moda</option></select></div>
+  <div class="fl"><label>Términos prohibidos de la categoría</label><input type="text" class="w3" value="réplica, imitación" placeholder=""></div>
+  <hr><h2>Atributos</h2>
+  <table class="stack "><thead><tr><th>Nombre</th><th>Tipo</th><th>Valores</th><th>Oblig.</th></tr></thead><tbody><tr><td data-l="Nombre">Talla</td><td data-l="Tipo">Lista</td><td data-l="Valores">S,M,L,XL</td><td data-l="Oblig."><label><input type="checkbox" checked> </label></td></tr><tr><td data-l="Nombre">Color</td><td data-l="Tipo">Lista</td><td data-l="Valores">(abierta)</td><td data-l="Oblig."><label><input type="checkbox" checked> </label></td></tr><tr><td data-l="Nombre">Material</td><td data-l="Tipo">Lista</td><td data-l="Valores">Algodón..</td><td data-l="Oblig."><label><input type="checkbox"> </label></td></tr></tbody></table>
+  <div class="row"><button class="btn s">+ Agregar atributo</button></div>
+  <div class="row end"><button class="btn ">Cancelar</button> <button class="btn p">Guardar</button></div></section>
+</div>
+<div class="box"><h2>Índice de búsqueda</h2>
+ <div class="row sb"><span>Última reconstrucción: 12/11 03:10 (100,000 prod.)</span><span>Avance: ---</span><button class="btn ">Reconstruir índice</button></div></div>
+</main></body></html>

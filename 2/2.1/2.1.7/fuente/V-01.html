@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>V-01 Registro y verificación de identidad</title><link rel="stylesheet" href="estilos.css"></head>
+<body class="web"><div class="codebar">V-01</div>
+<header class="top"><span class="logo">QHATU</span>
+<form class="search"><input type="text" placeholder="Buscar productos..." value=""> <button class="btn p">Buscar</button></form>
+<nav class="menu"><a href="#">Categorías ▾</a><a href="#">Mis pedidos</a><a href="#">Carrito (3)</a><a href="#" class="on">Vender</a><a href="#">Mi cuenta</a></nav>
+<span class="burger">☰</span></header>
+<main class="page">
+
+<div class="box"><h1>Vender en Qhatu - Registro de vendedor</h1>
+ <div class="row">Tipo: <label><input type="radio" name="t" checked> Persona natural (DNI)</label> <label><input type="radio" name="t"> Empresa (RUC)</label></div>
+ <div class="fl"><label>Nombres y apellidos / Razón social</label><input type="text" class="w3" value="" placeholder=""></div><div class="fl"><label>DNI / RUC</label><input type="text" class="w2" value="" placeholder=""></div>
+ <div class="fl"><label>Correo</label><input type="text" class="w3" value="" placeholder=""> Celular <input type="text" class="w2" value="" placeholder=""></div>
+ <div class="fl"><label>Dirección de despacho (distrito)</label><select style="min-width:110px"><option>Surco</option></select> <input type="text" class="w3" value="" placeholder=""></div>
+ <div>Documentos adicionales de la categoría (si aplica):</div>
+ <div class="row">Registro sanitario (Alimentos) <button class="btn ">Adjuntar archivo</button></div>
+ <div class="row end"><button class="btn p">Enviar registro</button></div></div>
+<div class="box"><h2>Estado de verificación</h2>
+ <label class="opt"><input type="radio" name="v"><span><b>PENDIENTE</b> &nbsp; Estamos validando tu identidad con RENIEC/SUNAT. Si el servicio no responde, lo reintentamos solo.</span></label>
+ <label class="opt"><input type="radio" name="v" checked><span><b>VERIFICADO</b> &nbsp; Ya puedes publicar productos. <button class="btn p s">Ir a Mis productos</button></span></label>
+ <label class="opt"><input type="radio" name="v"><span><b>OBSERVADO</b> &nbsp; Los datos no coinciden con el titular del documento. Un analista revisará tu registro.</span></label></div>
+</main></body></html>

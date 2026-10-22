@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>B-06 Tarifas, cobertura y couriers</title><link rel="stylesheet" href="estilos.css"></head>
+<body class="bo"><div class="codebar">B-06</div>
+<header class="top"><span class="logo">QHATU <small>· Back-office</small></span>
+<nav class="menu"><a href="#" class="on">Tarifas y cobertura</a><a href="#">Couriers</a><a href="#">Entregas fallidas</a></nav>
+<span class="who">Coordinador logístico</span><span class="burger">☰</span></header>
+<main class="page">
+
+<div class="head"><h1>Back-office &gt; Logística</h1><div class="tabs"><button class="btn on">Tarifas y cobertura</button> <button class="btn ">Couriers</button></div></div>
+<div class="box"><div class="row sb"><h2 style="margin:0">Tarifas por distrito</h2><span>Courier <select style="min-width:110px"><option>Courier Sur</option></select></span></div>
+ <table class="stack "><thead><tr><th>Origen</th><th>Destino</th><th>Hasta 1 kg</th><th>Kg adic.</th><th>Plazo</th><th>Cobertura</th></tr></thead><tbody><tr><td data-l="Origen">Surco</td><td data-l="Destino">Miraflores</td><td data-l="Hasta 1 kg">S/ 8.00</td><td data-l="Kg adic.">S/ 1.50</td><td data-l="Plazo">1-2 días</td><td data-l="Cobertura"><label><input type="checkbox" checked> </label></td></tr><tr><td data-l="Origen">Surco</td><td data-l="Destino">Arequipa</td><td data-l="Hasta 1 kg">S/ 18.00</td><td data-l="Kg adic.">S/ 3.00</td><td data-l="Plazo">3-4 días</td><td data-l="Cobertura"><label><input type="checkbox" checked> </label></td></tr><tr><td data-l="Origen">Surco</td><td data-l="Destino">Iquitos</td><td data-l="Hasta 1 kg">-</td><td data-l="Kg adic.">-</td><td data-l="Plazo">-</td><td data-l="Cobertura"><label><input type="checkbox"> </label></td></tr></tbody></table>
+ <div class="row">Tarifa de respaldo del distrito (si el cotizador falla): S/ <input type="text" class="w1" value="" placeholder=""></div>
+ <div class="row sb"><button class="btn s">+ Agregar fila</button><div class="row"><button class="btn ">Cancelar</button> <button class="btn p">Guardar</button></div></div></div>
+<div class="box"><h2>Couriers</h2>
+ <table class="stack "><thead><tr><th>Courier</th><th>Integración</th><th>Estado</th><th>Acciones</th></tr></thead><tbody><tr><td data-l="Courier">Courier Sur</td><td data-l="Integración">API / webhook</td><td data-l="Estado"><span class="tag ok">Activo</span></td><td data-l="Acciones"><button class="btn s">Editar</button> <button class="btn s">Desactivar</button></td></tr><tr><td data-l="Courier">Rápido Express</td><td data-l="Integración">API / webhook</td><td data-l="Estado"><span class="tag ok">Activo</span></td><td data-l="Acciones"><button class="btn s">Editar</button> <button class="btn s">Desactivar</button></td></tr><tr><td data-l="Courier">Envíos Norte</td><td data-l="Integración">Archivo diario</td><td data-l="Estado"><span class="tag gr">Inactivo</span></td><td data-l="Acciones"><button class="btn s">Editar</button> <button class="btn s">Activar</button></td></tr></tbody></table>
+ <div class="row"><button class="btn s">+ Registrar courier</button></div></div>
+</main></body></html>

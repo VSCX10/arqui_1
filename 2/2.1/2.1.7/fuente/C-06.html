@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>C-06 Checkout: resumen y pago (pasarela y 3-D Secure)</title><link rel="stylesheet" href="estilos.css"></head>
+<body class="web"><div class="codebar">C-06</div>
+<header class="top"><span class="logo">QHATU</span>
+<form class="search"><input type="text" placeholder="Buscar productos..." value=""> <button class="btn p">Buscar</button></form>
+<nav class="menu"><a href="#">Categorías ▾</a><a href="#">Mis pedidos</a><a href="#" class="on">Carrito (3)</a><a href="#">Vender</a><a href="#">Mi cuenta</a></nav>
+<span class="burger">☰</span></header>
+<main class="page">
+
+<div class="box g steps">CHECKOUT &nbsp; 1. Dirección y envío &gt; <b>2. Resumen y pago</b> &gt; 3. Estado</div>
+<div class="box"><h2>Resumen</h2>
+ <table class="stack "><thead><tr><th>Vendedor</th><th>Productos</th><th>Detalle</th><th>Total</th></tr></thead><tbody><tr><td data-l="Vendedor">Tienda Andina</td><td data-l="Productos">2 productos</td><td data-l="Detalle">S/ 134.80 + envío S/ 10.00</td><td data-l="Total">= S/ 144.80</td></tr><tr><td data-l="Vendedor">Casa Nazca</td><td data-l="Productos">1 producto</td><td data-l="Detalle">S/ 59.00 + envío S/ 12.00</td><td data-l="Total">= S/ 71.00</td></tr></tbody></table>
+ <div class="row sb" style="margin-top:8px"><b>TOTAL A PAGAR</b><b style="font-size:18px">S/ 215.80</b></div></div>
+<div class="box"><h2>Medio de pago</h2>
+ <div class="row"><label><input type="radio" name="mp" checked> Tarjeta de crédito o débito</label> &nbsp; <label><input type="radio" name="mp"> Otros medios de la pasarela</label></div>
+ <div class="box g" style="margin:8px 0"><b>Campos de la pasarela</b> <span class="mu">(no los almacena Qhatu)</span>
+  <div class="fl"><label>Número de tarjeta</label><input type="text" class="w3" value="" placeholder="____ ____ ____ ____"></div>
+  <div class="fl"><label>Vencimiento</label><input type="text" class="w1" value="" placeholder="__/__"> CVV <input type="text" class="w1" value="" placeholder="___"> Titular <input type="text" class="w3" value="" placeholder=""></div></div>
+ <div class="mu">Tu dinero queda retenido hasta que recibas tu pedido (pago protegido).</div>
+ <div class="row end"><button class="btn ">Volver</button> <button class="btn p">Pagar S/ 215.80</button></div></div>
+<div class="mu small">Ventana de autenticación 3-D Secure (la muestra el banco emisor):</div>
+<div class="modal"><h3>Verificación de tu banco</h3>
+ <p>Ingresa el código enviado a tu celular ***-*12</p>
+ <div class="row">Código <input type="text" class="w2" value="" placeholder=""></div>
+ <div class="row end"><button class="btn ">Cancelar</button> <button class="btn p">Confirmar</button></div></div>
+</main></body></html>

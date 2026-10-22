@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>B-08 Liquidaciones y conciliación</title><link rel="stylesheet" href="estilos.css"></head>
+<body class="bo"><div class="codebar">B-08</div>
+<header class="top"><span class="logo">QHATU <small>· Back-office</small></span>
+<nav class="menu"><a href="#" class="on">Liquidaciones</a><a href="#">Conciliación</a></nav>
+<span class="who">Responsable de liquidaciones</span><span class="burger">☰</span></header>
+<main class="page">
+
+<div class="head"><h1>Back-office &gt; Pagos</h1><div class="tabs"><button class="btn on">Liquidaciones</button> <button class="btn ">Conciliación</button></div></div>
+<div class="box"><div class="row sb"><h2 style="margin:0">Liquidación semanal</h2><span>Semana <select style="min-width:130px"><option>13-19/10/2026</option></select></span></div>
+ <p>Vendedores con saldo liberado: <b>4,812</b> &nbsp; Total: <b>S/ 1,284,300.00</b><br>Excluidos: 37 (cuenta bancaria en periodo de espera)</p>
+ <div class="row"><button class="btn p">Generar órdenes de transferencia</button></div>
+ <div class="row"><div class="prog"><i style="width:75%"></i></div> <span>3,600 de 4,812 (75%)</span></div>
+ <table class="stack "><thead><tr><th>Lote</th><th>Vendedores</th><th>Monto</th><th>Estado</th><th></th></tr></thead><tbody><tr><td data-l="Lote">L-41</td><td data-l="Vendedores">4,812</td><td data-l="Monto">S/ 1,284,300.00</td><td data-l="Estado">En generación</td><td data-l=""><button class="btn s">Descargar</button></td></tr></tbody></table></div>
+<div class="box"><div class="row sb"><h2 style="margin:0">Conciliación diaria</h2><span>Fecha <select style="min-width:120px"><option>18/10/2026</option></select></span></div>
+ <div class="row">Reporte de la pasarela: <button class="btn ">Importar reporte</button> reporte_1810.csv</div>
+ <p>Transacciones: 9,950 &nbsp; Conciliadas: 9,941 &nbsp; Diferencias: <b>9</b></p>
+ <table class="stack "><thead><tr><th>Transacción</th><th>Qhatu</th><th>Pasarela</th><th>Diferencia</th><th></th></tr></thead><tbody><tr><td data-l="Transacción">TX-88121</td><td data-l="Qhatu">S/ 120.00</td><td data-l="Pasarela">S/ 102.00</td><td data-l="Diferencia">S/ 18.00</td><td data-l=""><button class="btn s">Ver</button></td></tr><tr><td data-l="Transacción">TX-88340</td><td data-l="Qhatu">registrada</td><td data-l="Pasarela">no figura</td><td data-l="Diferencia">-</td><td data-l=""><button class="btn s">Ver</button></td></tr></tbody></table>
+ <div class="row end"><button class="btn ">Exportar diferencias</button></div></div>
+</main></body></html>
